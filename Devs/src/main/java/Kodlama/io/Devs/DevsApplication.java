@@ -1,5 +1,6 @@
 package Kodlama.io.Devs;
 
+<<<<<<< HEAD
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,3 +19,16 @@ public class DevsApplication {
     }
 }
 
+=======
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DevsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DevsApplication.class, args);
+	}
+
+}
+>>>>>>> branch 'master' of https://github.com/Fateehs/Kodlama.io.Devs.git
